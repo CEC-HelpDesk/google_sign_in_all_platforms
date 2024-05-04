@@ -54,7 +54,7 @@ class GoogleSignInAllPlatformsDesktop
     final code = request.requestedUri.queryParametersAll['code']?.first;
     await _getCredentialsFromAccessCode(code);
     return Response.ok(
-      'Successfully Authenticated, You may now close this tab',
+      'Test',
     );
   }
 
